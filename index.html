@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!--Авторизация ФГБУ ФВЦМР ФМБА-->
+<html>
+	<head>
+		<title>Авторизация ФГБУ ФВЦМР ФМБА</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/req.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+
+				<h1>Авторизация</h1>
+
+				<p>Для того чтобы оставить заявку,<br />
+					пожалуйста, введите логин и пароль ФГБУ ФВЦМР ФМБА.</p>
+
+			</header>
+
+		<!-- Auth Form -->
+			<form id="Auth-form" method="post" action="send.php">
+
+				<input type="email" name="login" id="login" placeholder="Логин" required/>
+				<input type="password" name="password" id="password" placeholder="Пароль" required/>
+				<input class="actions" type="submit" id="submit" value="Войти" />
+
+			</form>
+
+
+		<div id=mess class="mess">
+
+			<p> Если Вы не зарегистрированы в системе, пожалуйста, обратитесь в IT-отдел!</p>
+
+		</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<ul class="icons">
+
+					<li><a href="#" class="icon solid fa-phone"><span class="label"></span> +7 (84235) 4-14-15</a></li>
+					<li><a href="#" class="icon fa-envelope"><span class="label"></span> it@fvcmrmail.ru</a></li>
+
+				</ul>
+
+				<ul class="copyright">
+
+					<li><a href="#"  >&copy; ФГБУ ФВЦМР ФМБА</a></li>
+
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/req.js"></script>
+
+	</body>
+</html>
