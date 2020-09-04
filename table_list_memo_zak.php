@@ -80,22 +80,14 @@
                                     <td>
                                         Согласовано
                                     </td>
-                                    <td>
-                                        <div class="col-6 col-12-xsmall">
-                                            <select name="status" id="status" title="Статус служебной записки" required="required">
-                                                <option value="">- Статус -</option>
-                                                <option value="Отложенно">Отложенно</option>
-                                                <option value="Новая">Новая</option>
-                                                <option value="Закончена">Закончена</option>
-                                                <option value="Отменена">Отменена</option>
-                                            </select>
-                                        </div>
+                                    <td data-type='text'>
+                                    - Статус -
                                     </td>
                                     <td>
                                         <div class="col-12">
                                             <ul class="actions">
                                                 <!--                                                <li><input type="submit" value="Редактировать" class="primary" /></li></ul>-->
-                                                <ul class="actions"><li><input type="reset" value="Просмотр" /></li>
+                                                <ul class="actions"><li><input type="reset" value="Редактирование" class="primary" /></li>
                                                 </ul>
                                         </div>
                                     </td>
@@ -120,22 +112,14 @@
                                         <td>
                                             Согласовано
                                         </td>
-                                        <td>
-                                            <div class="col-6 col-12-xsmall">
-                                                <select name="status" id="status" title="Статус служебной записки" required="required">
-                                                    <option value="">- Статус -</option>
-                                                    <option value="Отложенно">Отложенно</option>
-                                                    <option value="Новая">Новая</option>
-                                                    <option value="Закончена">Закончена</option>
-                                                    <option value="Отменена">Отменена</option>
-                                                </select>
-                                            </div>
+                                        <td data-type='text'>
+                                            - Статус -
                                         </td>
                                         <td>
                                             <div class="col-12">
                                                 <ul class="actions">
                                                     <!--                                                <li><input type="submit" value="Редактировать" class="primary" /></li></ul>-->
-                                                    <ul class="actions"><li><input type="reset" value="Просмотр" /></li>
+                                                    <ul class="actions"><li><input type="reset" value="Редактирование" class="primary" /></li>
                                                     </ul>
                                             </div>
                                         </td></tr>
@@ -155,27 +139,19 @@
                                             13.03.2020
                                         </td>
                                         <td data-type='text'>
-                                            ВН125485
+                                            ВН-125485
                                         </td>
                                         <td>
                                             Согласовано
                                         </td>
-                                        <td>
-                                            <div class="col-6 col-12-xsmall">
-                                                <select name="status" id="status" title="Статус служебной записки" required="required">
-                                                    <option value="">- Статус -</option>
-                                                    <option value="Отложенно">Отложенно</option>
-                                                    <option value="Новая">Новая</option>
-                                                    <option value="Закончена">Закончена</option>
-                                                    <option value="Отменена">Отменена</option>
-                                                </select>
-                                            </div>
+                                        <td data-type='text'>
+                                            - Статус -
                                         </td>
                                         <td>
                                             <div class="col-12">
                                                 <ul class="actions">
                                                     <!--                                                <li><input type="submit" value="Редактировать" class="primary" /></li></ul>-->
-                                                    <ul class="actions"><li><input type="reset" value="Просмотр" /></li>
+                                                    <ul class="actions"><li><input type="submit" value="Редактировать" class="primary" /></li>
                                                     </ul>
                                             </div>
                                         </td></tr>
@@ -239,6 +215,7 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="script.js"></script>
 <script>
     //<input> ниже ожидает телефонный номер, ничего кроме чисел, +, () или - принято не будет
     function checkPhoneKey(key) {
